@@ -1,0 +1,69 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<form class="" method="POST" th:object="${card}"
+	th:action="@{/cartao_credito}">
+
+	<input id="idCard" type="hidden" th:field="*{id}" th:value="${card.id}">
+
+	<div class="modal-header header-modal">
+		<h4 class="modal-title" id="motalTitulo"></h4>
+		<div class="clearfix"></div>
+	</div>
+	<div class="modal-body pb-0">
+		<div class="container p-0">
+
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12 m-0">
+					<div class="form-group">
+						<label for="exampleInputPassword1">Nome*</label> <input
+							id="formNome" type="text" class="form-control validar"
+							placeholder="" autocomplete="off" th:field="*{nome}"
+							th:value="${card.nome}" required>
+					</div>
+				</div>
+				<div class="col-md-12 col-sm-12 col-xs-12 m-0">
+					<div class="form-group">
+						<label for="exampleInputPassword1">Bandeira*</label> <input
+							id="formBandeira" type="text" class="form-control validar"
+							placeholder="" autocomplete="off" th:field="*{bandeira}"
+							th:value="${card.bandeira}" required>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-sm-12 col-xs-12 m-0">
+					<div class="form-group">
+						<label for="exampleInputPassword1">Numero*</label> <input
+							id="formNumero" type="email" class="form-control validar"
+							placeholder="" autocomplete="off" th:field="*{numero}"
+							th:value="${card.numero}" required>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-12 col-xs-12 m-0">
+					<div class="form-group">
+						<label for="exampleInputPassword1">Validade</label> <input
+							id="formValidade" type="text" class="form-control validar"
+							placeholder="" autocomplete="off" th:field="*{validade}"
+							th:value="${card.validade}" required>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12 m-0">
+					<div class="form-group">
+						<label for="exampleInputPassword1">Candidato*</label> 
+						<input id="formCandidatoId" type="hidden" th:value = "${card.candidato.id}">
+						<input id="formCandidato" type="text" class="form-control validar"
+							placeholder="" autocomplete="off" th:field="*{candidato.nome}"
+							th:value="${card.candidato.nome}" required>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal-footer">
+			<button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+			<button type="submit" class="btn btn-primary" id="btnSalvar">Salvar</button>
+		</div>
+	</div>
+</form>

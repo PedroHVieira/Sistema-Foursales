@@ -1,0 +1,57 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<form class="" method="POST" th:object="${candidato}" th:action="@{/candidato}">
+	
+	<input id="idCandidato" type="hidden" th:field="*{id}" th:value="${candidato.id}">
+	
+	<div class="modal-header header-modal">
+		<h4 class="modal-title" id="motalTitulo"></h4>
+		<div class="clearfix"></div>
+	</div>
+	<div class="modal-body pb-0">
+		<div class="container p-0">
+
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12 m-0">
+					<div class="form-group">
+						<label for="exampleInputPassword1">Nome*</label> <input
+							id="formNome" type="text" class="form-control validar"
+							placeholder="" autocomplete="off" th:field="*{nome}"
+							th:value="${candidato.nome}" required>
+					</div>
+				</div>
+				<div class="col-md-12 col-sm-12 col-xs-12 m-0">
+					<div class="form-group">
+						<label for="exampleInputPassword1">Cpf*</label> <input
+							id="formCpf" type="text" class="form-control validar"
+							placeholder="" autocomplete="off" th:field="*{cpf}"
+							th:value="${candidato.cpf}" required>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-sm-12 col-xs-12 m-0">
+					<div class="form-group">
+						<label for="exampleInputPassword1">Email*</label> <input
+							id="formEmail" type="email" class="form-control validar"
+							placeholder="" autocomplete="off" th:field="*{email}"
+							th:value="${candidato.email}" required>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-12 col-xs-12 m-0">
+					<div class="form-group">
+						<label for="exampleInputPassword1">CEP</label> <input
+							id="formCep" type="text" class="form-control validar"
+							placeholder="" autocomplete="off" th:field="*{cep}"
+							th:value="${candidato.cep}" required>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal-footer">
+			<button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+			<button type="submit" class="btn btn-primary" id = "btnSalvar">Salvar</button>
+		</div>
+	</div>
+</form>
