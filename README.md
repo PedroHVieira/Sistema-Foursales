@@ -20,7 +20,7 @@ Desenvolver API REST utilizando Spring Boot p/ controle de candidatos e cartões
   <strong>Authorization</strong>: Basic Auth<br>
   <strong>Usuário</strong>: admin@admin.com<br>
 	<strong>Senha</strong>: admin<br>
-  <strong>Body</strong>: raw do tipo JSON (Para os verbos HTTP POST, PUT E DELETE)<br><br>
+  <strong>Body</strong>: raw do tipo <strong>JSON</strong> (Para os verbos HTTP <strong>POST</strong>, <strong>PUT</strong> e <strong>DELETE</strong>)<br><br>
 - <strong>DADOS PARA CONEXÃO DO BANCO DE DADOS</strong> <br>
 	url: localhost:3306/foursales?createDatabaseIfNotExist=true&useSSL=false<br>
 	username: root<br>
