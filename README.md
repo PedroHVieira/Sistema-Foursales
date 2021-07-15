@@ -17,7 +17,7 @@ Desenvolver API REST utilizando Spring Boot p/ controle de candidatos e cartões
 	<strong>Usuário</strong>: admin@admin.com<br>
 	<strong>Senha</strong>: admin<br><br>
 - <strong>DADOS PARA UTILIZAÇÃO DO POSTMAN</strong> <br>
-  <strong>Authorization</strong>: Basic Auth
+  <strong>Authorization</strong>: Basic Auth<br>
   <strong>Usuário</strong>: admin@admin.com<br>
 	<strong>Senha</strong>: admin<br><br>
 - <strong>DADOS PARA CONEXÃO DO BANCO DE DADOS</strong> <br>
