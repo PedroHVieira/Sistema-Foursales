@@ -20,7 +20,9 @@ Desenvolver API REST utilizando Spring Boot p/ controle de candidatos e cartões
   <strong>Authorization</strong>: Basic Auth<br>
   <strong>Usuário</strong>: admin@admin.com<br>
 	<strong>Senha</strong>: admin<br>
-  <strong>Body</strong>: <strong>Raw</strong> do tipo <strong>JSON</strong> (Para os verbos HTTP <strong>POST</strong>, <strong>PUT</strong> e <strong>DELETE</strong>)<br><br>
+  <strong>Body</strong>: <strong>Raw</strong> do tipo <strong>JSON</strong> (Para os verbos HTTP <strong>POST</strong>, <strong>PUT</strong> e <strong>DELETE</strong>)<br>
+  Lembrando que para o endpoint do Candidato (/candidato) o verbo HTTP 'DELETE' é público.<br>
+  <br>
 - <strong>DADOS PARA CONEXÃO DO BANCO DE DADOS</strong> <br>
 	url: localhost:3306/foursales?createDatabaseIfNotExist=true&useSSL=false<br>
 	username: root<br>
