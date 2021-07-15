@@ -21,7 +21,7 @@ Desenvolver API REST utilizando Spring Boot p/ controle de candidatos e cartões
   <strong>Usuário</strong>: admin@admin.com<br>
 	<strong>Senha</strong>: admin<br><br>
 - <strong>DADOS PARA CONEXÃO DO BANCO DE DADOS</strong> <br>
-	url: localhost:3306/wk?createDatabaseIfNotExist=true&useSSL=false<br>
+	url: localhost:3306/foursales?createDatabaseIfNotExist=true&useSSL=false<br>
 	username: root<br>
 	password:<br><br>
 - <strong>OS DADOS DE CONEXÃO PODEM SER ALTERADOS NO ARQUIVO ‘src\main\resources\application.properties’</strong><br>
