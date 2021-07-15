@@ -34,17 +34,17 @@ Tela destinado para fazer apresentar a documentação do sistema.<br>
 
 <strong>2)CANDIDATOS (url = /candidatos)</strong><br>
 Tela destinada para fazer o Gerenciamento dos Candidatos (CRUD para os Candidatos), sendo que a interface utiliza da API para fazer as funcionalidades (Inserção, Atualizaão e Deleção)<br><br>
--<strong>C (CREATE)</strong> = Feito no endpoint <strong>'/candidato</strong> utilizando o verbo HTTP <strong>'POST'</strong><br>
--<strong>R (READ)</strong> = Feito no endpoint <strong>'/candidato</strong> utilizando o verbo HTTP <strong>'GET'</strong><br>
--<strong>U (UPDATE)</strong> = Feito no endpoint <strong>'/candidato</strong> utilizando o verbo HTTP <strong>'PUT'</strong><br>
--<strong>D (DELETE)</strong> = Feito no endpoint <strong>'/candidato</strong> utilizando o verbo HTTP <strong>'DELETE'</strong><br>
+-<strong>C (CREATE - INSERÇÃO)</strong> = Feito no endpoint <strong>'/candidato'</strong> utilizando o verbo HTTP <strong>'POST'</strong><br>
+-<strong>R (READ - LISTAGEM)</strong> = Feito no endpoint <strong>'/candidato'</strong> utilizando o verbo HTTP <strong>'GET'</strong><br>
+-<strong>U (UPDATE - ATUALIZAÇÃO)</strong> = Feito no endpoint <strong>'/candidato'</strong> utilizando o verbo HTTP <strong>'PUT'</strong><br>
+-<strong>D (DELETE - DELEÇÃO)</strong> = Feito no endpoint <strong>'/candidato'</strong> utilizando o verbo HTTP <strong>'DELETE'</strong><br>
   
 <strong>3)CARTÕES (url = /cartoes)</strong><br>
 Tela destinada para fazer o Gerenciamento dos Cartões de Crédito (CRUD para os Cartões de Crédito), sendo que a interface utiliza da API para fazer as funcionalidades (Inserção, Atualizaão e Deleção)<br><br>
--<strong>C (CREATE)</strong> = Feito no endpoint <strong>'/cartao_credito'</strong> utilizando o verbo HTTP <strong>'POST'</strong><br>
--<strong>R (READ)</strong> = Feito no endpoint <strong>'/cartao_credito'</strong> utilizando o verbo HTTP <strong>'GET'</strong><br>
--<strong>U (UPDATE)</strong> = Feito no endpoint <strong>'/cartao_credito'</strong> utilizando o verbo HTTP <strong>'PUT'</strong><br>
--<strong>D (DELETE)</strong> = Feito no endpoint <strong>'/cartao_credito'</strong> utilizando o verbo HTTP <strong>'DELETE'</strong><br>
+-<strong>C (CREATE - INSERÇÃO)</strong> = Feito no endpoint <strong>'/cartao_credito'</strong> utilizando o verbo HTTP <strong>'POST'</strong><br>
+-<strong>R (READ - LISTAGEM)</strong> = Feito no endpoint <strong>'/cartao_credito'</strong> utilizando o verbo HTTP <strong>'GET'</strong><br>
+-<strong>U (UPDATE - ATUALIZAÇÃO)</strong> = Feito no endpoint <strong>'/cartao_credito'</strong> utilizando o verbo HTTP <strong>'PUT'</strong><br>
+-<strong>D (DELETE - DELEÇÃO)</strong> = Feito no endpoint <strong>'/cartao_credito'</strong> utilizando o verbo HTTP <strong>'DELETE'</strong><br>
 
 ---------------------------------------------------------------------------------------------------------------------------
 
