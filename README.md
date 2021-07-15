@@ -29,22 +29,22 @@ Desenvolver API REST utilizando Spring Boot p/ controle de candidatos e cartões
 ---------------------------------------------------------------------------------------------------------------------------
 
 <strong>ROTEIRO DA INTERFACE</strong>:<br>
-<strong>1)HOME</strong> <br>
+<strong>1)HOME (url = /)</strong> <br>
 Tela destinado para fazer apresentar a documentação do sistema.<br>
 
-<strong>2)CANDIDATOS (/candidatos)</strong><br>
+<strong>2)CANDIDATOS (url = /candidatos)</strong><br>
 Tela destinada para fazer o Gerenciamento dos Candidatos (CRUD para os Candidatos), sendo que a interface utiliza da API para fazer as funcionalidades (Inserção, Atualizaão e Deleção)<br><br>
--<strong>C (CREATE)</strong> = Feito no endpoint /candidato utilizando o verbo HTTP 'POST'<br>
--<strong>R (READ)</strong> = Feito no endpoint /candidato utilizando o verbo HTTP 'GET'<br>
--<strong>U (UPDATE)</strong> = Feito no endpoint /candidato utilizando o verbo HTTP 'PUT'<br>
--<strong>D (DELETE)</strong> = Feito no endpoint /candidato utilizando o verbo HTTP 'DELETE'<br>
+-<strong>C (CREATE)</strong> = Feito no endpoint <strong>'/candidato</strong> utilizando o verbo HTTP <strong>'POST'</strong><br>
+-<strong>R (READ)</strong> = Feito no endpoint <strong>'/candidato</strong> utilizando o verbo HTTP <strong>'GET'</strong><br>
+-<strong>U (UPDATE)</strong> = Feito no endpoint <strong>'/candidato</strong> utilizando o verbo HTTP <strong>'PUT'</strong><br>
+-<strong>D (DELETE)</strong> = Feito no endpoint <strong>'/candidato</strong> utilizando o verbo HTTP <strong>'DELETE'</strong><br>
   
-<strong>3)CARTÕES (/cartoes)</strong><br>
+<strong>3)CARTÕES (url = /cartoes)</strong><br>
 Tela destinada para fazer o Gerenciamento dos Cartões de Crédito (CRUD para os Cartões de Crédito), sendo que a interface utiliza da API para fazer as funcionalidades (Inserção, Atualizaão e Deleção)<br><br>
--<strong>C (CREATE)</strong> = Feito no endpoint /cartao_credito utilizando o verbo HTTP 'POST'<br>
--<strong>R (READ)</strong> = Feito no endpoint /cartao_credito utilizando o verbo HTTP 'GET'<br>
--<strong>U (UPDATE)</strong> = Feito no endpoint /cartao_credito utilizando o verbo HTTP 'PUT'<br>
--<strong>D (DELETE)</strong> = Feito no endpoint /cartao_credito utilizando o verbo HTTP 'DELETE'<br>
+-<strong>C (CREATE)</strong> = Feito no endpoint <strong>'/cartao_credito'</strong> utilizando o verbo HTTP <strong>'POST'</strong><br>
+-<strong>R (READ)</strong> = Feito no endpoint <strong>'/cartao_credito'</strong> utilizando o verbo HTTP <strong>'GET'</strong><br>
+-<strong>U (UPDATE)</strong> = Feito no endpoint <strong>'/cartao_credito'</strong> utilizando o verbo HTTP <strong>'PUT'</strong><br>
+-<strong>D (DELETE)</strong> = Feito no endpoint <strong>'/cartao_credito'</strong> utilizando o verbo HTTP <strong>'DELETE'</strong><br>
 
 ---------------------------------------------------------------------------------------------------------------------------
 
